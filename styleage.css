@@ -1,0 +1,41 @@
+body {
+   background-image: url('heaven.jpg');
+              background-repeat: no-repeat;
+              background-attachment: fixed;
+              background-size: cover;
+}
+
+h1,h5,h3 {
+  text-align: center;
+  color: black;
+  margin-top: 5%;
+}
+
+#age {
+  width: 20%;
+  margin-left: 40%;
+}
+
+#age input, span, button {
+  display: block;
+  padding: 5%;
+  margin: 5%;
+}
+
+#result {
+  margin-left: 40%;
+  text-align: left;
+  color: white;
+  font-size:20px;
+}
+
+@media screen and (max-width: 700px) {
+  body {
+    background-color: lightgreen;
+  }
+  
+  
+  #title
+  {
+	  font-family:Dancing Script;
+  }
